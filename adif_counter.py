@@ -8,7 +8,7 @@ import re
 from datetime import datetime, timezone, UTC
 from pathlib import Path
 
-HOME='/home/k5aq/Documents/WSJT-X/logs/'
+HOME='/home/k5aq/Documents/WSJT-X/'
 
 def parse_adif_file(filename):
     """Parse ADIF file and extract QSO records."""
