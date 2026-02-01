@@ -8,7 +8,7 @@ import re
 from datetime import datetime, timezone, UTC
 from pathlib import Path
 
-HOME='/home/k5aq/Documents/WSJT-X/'
+#HOME='/home/k5aq/Documents/WSJT-X/'
 
 def parse_adif_file(filename):
     """Parse ADIF file and extract QSO records."""
@@ -72,7 +72,7 @@ def main():
         sys.exit(1)
     
     filename = sys.argv[1]
-    filename = HOME + filename
+    # filename = HOME + filename
 
 
     # Get today's date in YYYYMMDD format
